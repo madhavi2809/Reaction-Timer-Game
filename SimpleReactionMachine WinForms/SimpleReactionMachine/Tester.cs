@@ -302,7 +302,6 @@
 //                 displayText = msg;
 //             }
 //         }
- ///bla bla bla
 //         private class RndGenerator : IRandom
 //         {
 //             public int GetRandom(int from, int to)
