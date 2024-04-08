@@ -1,23 +1,26 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+<!-- declares XML namespace for Maven POM file, xml schema instance, then it provides the schema location for POM file -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"   
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+   
+<!-- specifies the version of POM model being used -->
+<modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>my-project</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.example</groupId>  <!-- tells group that owns the project -->
+    <artifactId>my-project</artifactId> <!-- tells unique identifier for the project -->
+    <version>1.0.0</version> <!-- version of project -->
 
+<!-- sets java source compatibility level to java 11 for compiling the project -->
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+<!-- lists dependencies required for project -->
     <dependencies>
-        <!-- Add your dependencies here -->
-        <!-- Example: JUnit for testing -->
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
+            <groupId>madhavi</groupId>
+            <artifactId>art1</artifactId>
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
